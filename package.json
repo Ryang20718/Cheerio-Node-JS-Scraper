@@ -2,6 +2,7 @@
   "name": "",
   "version": "",
   "dependencies": {
+    "aws-sdk": "^2.213.1",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "delay": "^2.0.0",

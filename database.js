@@ -1,14 +1,11 @@
 var AWS = require("aws-sdk");
 
-AWS.config.update({
-  region: "us-east-2",
-  credentials: "credentials"
-});
+AWS.config.update({region: 'us-east-2'});
 
 var dynamodb = new AWS.DynamoDB();
 
 var params = {
-    TableName : "Movies",
+    TableName : "NodeJS",
     KeySchema: [       
         { AttributeName: "year", KeyType: "HASH"},  //Partition key
         { AttributeName: "title", KeyType: "RANGE" }  //Sort key
