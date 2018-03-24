@@ -91,7 +91,7 @@ rl.question('What food would you like to eat today', (answer) => {
         service: 'gmail',
         auth: {
             user: 'ryang20718@likelion.org',
-            pass: 'Pass'
+            pass: 'pass'
         }
     });
 
