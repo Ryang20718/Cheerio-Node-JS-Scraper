@@ -1,3 +1,4 @@
+//Creating a Table
 var AWS = require("aws-sdk");
 
 AWS.config.update({region: 'us-east-2'});
@@ -26,4 +27,29 @@ dynamodb.createTable(params, function(err, data) {
     } else {
         console.log("Created table. Table description JSON:", JSON.stringify(data, null, 2));
     }
+});
+
+
+//insert
+
+console.log("Importing movies into DynamoDB. Please wait.");
+
+var allMovies = JSON.parse(fs.readFileSync('moviedata.json', 'utf8'));
+allMovies.forEach(function(movie) {
+    var params = {
+        TableName: "NodeJS",
+        Item: {
+            "year":  movie.year,
+            "title": movie.title,
+            "info":  movie.info
+        }
+    };
+
+    docClient.put(params, function(err, data) {
+       if (err) {
+           console.error("Unable to add movie", movie.title, ". Error JSON:", JSON.stringify(err, null, 2));
+       } else {
+           console.log("PutItem succeeded:", movie.title);
+       }
+    });
 });
