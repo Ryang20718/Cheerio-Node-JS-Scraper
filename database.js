@@ -31,7 +31,7 @@ dynamodb.createTable(params, function(err, data) {
 
 
 //insert
-
+/*
 console.log("Importing movies into DynamoDB. Please wait.");
 
 var allMovies = JSON.parse(fs.readFileSync('moviedata.json', 'utf8'));
@@ -53,3 +53,4 @@ allMovies.forEach(function(movie) {
        }
     });
 });
+*/
