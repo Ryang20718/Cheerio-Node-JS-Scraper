@@ -30,7 +30,7 @@ dynamodb.createTable(params, function(err, data) {
 });
 
 
-//insert Function
+//insert Function for NodeJs
 /*
 console.log("Importing movies into DynamoDB. Please wait.");
 
