@@ -1,136 +1,14 @@
 [
     {
-        "Dining": "De Neve",
-        "Food": [
-            "Cheese Blintz w/ Berry Compote",
-            "Sweet Potato Tater Tots",
-            "Egg White",
-            "Omelet Bar",
-            "Potatoes O'Brien",
-            "Scrambled Egg Whites",
-            "Bacon",
-            "Breakfast Hash Brown",
-            "Chicken Apple Sausage",
-            "Fried Eggs",
-            "Scrambled Eggs",
-            "Belgian Waffle"
+        "Dining": "54.45USD",
+        "tags": [
+            "54.45USD"
         ]
     },
     {
-        "Dining": "Bruin Plate",
-        "Food": [
-            "Egg White",
-            "Omelet Bar",
-            "Chicken, Mushroom, Barley & Swiss Chard Hash w/ Avocado",
-            "Red Potato Hash",
-            "Scrambled Egg Whites",
-            "Scrambled Eggs",
-            "Oat & Whole Wheat Waffle",
-            "Crunchy French Toast w/ Pistachio Butter & Pineapple"
-        ]
-    },
-    {
-        "Dining": "Covel",
-        "Food": [
-            "Build-Your-Own Pasta Bar",
-            "Pomegranate Chicken Wrap",
-            "Cauliflower Fritter",
-            "Garlic Chicken Pizza",
-            "Turkey Burger",
-            "Crusty Gruyere Grilled Cheese Sandwich w/ Bacon"
-        ]
-    },
-    {
-        "Dining": "De Neve",
-        "Food": [
-            "Grilled Pork Loin w/ Chimichurri Sauce",
-            "Shrimp Acapulco",
-            "Roasted Cauliflower w/ Chile & Lime",
-            "Tex Mex Chicken Fajita Burrito",
-            "Hawaiian Pizza"
-        ]
-    },
-    {
-        "Dining": "FEAST at Rieber",
-        "Food": [
-            "House Special Fried Rice",
-            "Black Bean Chili Yong Tofu",
-            "Tandoori Chicken",
-            "Vegetarian Bibimbap",
-            "Bangkok Hawker Vegetable Sandwich",
-            "Grilled Pork Sandwich",
-            "Lemongrass & Basil Chicken Sandwich",
-            "Pork & Vegetable Dumpling",
-            "Siam Yellow Curry Fries"
-        ]
-    },
-    {
-        "Dining": "Bruin Plate",
-        "Food": [
-            "Chicken w/ Toasted Quinoa & Garlic Vegetable Bowl",
-            "Lemon-Ginger Tofu w/ Bulgur, Red Quinoa & Garlic Green Beans",
-            "Albacore Tuna, Beet, Roasted Potato & Egg Salad",
-            "Spinach, Arugula, & White Bean Guacamole Wrap",
-            "Chicken, Leek & Swiss Chard Pizza",
-            "Marinated Roma Tomato Pizza",
-            "Grilled Chicken - Garlic-Orange Marinade",
-            "Pork, Fig & Wheatberry Stacker",
-            "Roasted Yukon Potatoes & Fennel",
-            "Black Bean & Brown Rice Stacker"
-        ]
-    },
-    {
-        "Dining": "Covel",
-        "Food": [
-            "Gemelli Pasta w/ Asparagus & Mushroom",
-            "Gemelli Pasta w/ Seafood",
-            "Harissa Chicken Wings",
-            "Pomegranate Chicken Wrap",
-            "Cauliflower Fritter",
-            "Garlic Chicken Pizza",
-            "Turkey Burger",
-            "Crusty Gruyere Grilled Cheese Sandwich w/ Bacon"
-        ]
-    },
-    {
-        "Dining": "De Neve",
-        "Food": [
-            "Elk, Beef & Pork Sausage",
-            "Pork Carnitas Burrito Bowl",
-            "Bean, Cheese, & Avocado Sopes",
-            "Echo Park Black Bean Vegan Tostada",
-            "Mid-West Honey Mustard Chicken",
-            "Spring Vegetable Salad",
-            "Hawaiian Pizza"
-        ]
-    },
-    {
-        "Dining": "FEAST at Rieber",
-        "Food": [
-            "Chinese Steamed Pork Spareribs in Black Bean Sauce",
-            "General Tsao's Chicken",
-            "Caramelized Eggplant",
-            "Firey Chicken",
-            "Creamy Spinach w/ Paneer Cheese",
-            "Green Onion Pancake",
-            "Naan Bread",
-            "Shrimp Chips",
-            "Spicy Chicken in Steamed Bun"
-        ]
-    },
-    {
-        "Dining": "Bruin Plate",
-        "Food": [
-            "Brisket, Whole Wheat Penne & Swiss Chard",
-            "Slow-Roasted Brisket",
-            "Whole Wheat Linguini w/ Wheatballs & Spinach Bowl",
-            "Chicken Enchilada w/ Avocado Salsa",
-            "Stuffed Peppers w/ Roasted Vegetables & Farro",
-            "Apple, Escarole & Feta Cheese Flatbread",
-            "Spicy Anaheim & Jalapeno Chicken Tortilla Pizza",
-            "Grilled Trout",
-            "Grilled Pineapple",
-            "Yukon Gold Potato Wedges"
+        "Dining": "+0.45+0.83%",
+        "tags": [
+            "+0.45+0.83%"
         ]
     }
 ]
