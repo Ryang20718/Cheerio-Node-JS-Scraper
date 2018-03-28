@@ -1,18 +1,8 @@
 [
     {
-        "Price": "54.45USD",
-        "Flux": [
-            "54.45USD"
-        ]
-    },
-    {
-        "Price": "+0.45+0.83%",
-        "Flux": [
-            "+0.45+0.83%"
-        ]
-    },
-    {
+        "Stock": "SMART Global Holdings Inc",
         "Price": "54.45",
-        "amtChanged": "+0.45"
+        "amtChanged": "+0.45",
+        "pctChanged": "+0.83%"
     }
 ]
