@@ -27,23 +27,12 @@ axios.get('https://www.bloomberg.com/quote/SGH:US')
         }
     }, (error) => console.log(err));
 
+
+
+//reading in from json
     var obj = JSON.parse(fs.readFileSync('output.json', 'utf8'));
-    for (var i = 0; i < obj.length; i++) { // Looping Through all the menu items
-        for (var foodItems = 0; foodItems < obj[i].Food.length; foodItems++) {
-            if (obj[i].Food[foodItems].includes(answer)) {
-                foodResult += 'There is ' + obj[i].Food[foodItems] + ' at ' + obj[i].Dining;
-                //foodResult += '\n';
-                if (obj[i].Dining.includes('FEAST')) { //feast counter
-                    Feasto++;
-                } else if (obj[i].Dining.includes('Covel')) { //covel counter
-                    Covel++;
-                } else if (obj[i].Dining.includes('De')) {
-                    Denevo++;
-                } else { //BPLATE
-                    Bplato++;
-                }
-            }
-        }
+    for (var i = 0; i < obj.length; i++) { // Looping Through all the stocks
+        
     }
 
 // Email Notifications
