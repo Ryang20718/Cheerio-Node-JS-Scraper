@@ -30,9 +30,12 @@ axios.get('https://www.bloomberg.com/quote/SGH:US')
 
 
 //reading in from json
+var msg = "";
     var obj = JSON.parse(fs.readFileSync('output.json', 'utf8'));
     for (var i = 0; i < obj.length; i++) { // Looping Through all the stocks
-        
+        if(obj[i].Price <= 52){
+            msg = "SGH is now very low! BUY BUY BUY!";
+        }
     }
 
 // Email Notifications
