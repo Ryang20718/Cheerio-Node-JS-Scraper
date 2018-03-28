@@ -21,12 +21,9 @@ axios.get('https://www.bloomberg.com/quote/SGH:US')
             });
 
             devtoList[2] = {
-                Price: $('#root .contentWell__b0c648c9 .quotePageSnapshot .pseudoMainContent .snapshot__0569338b .snapshotOverview__d5769afc .snapshotSummary__16511a01 .price__c3a38e1d .overviewRow__0956421f').find('span').text().trim(),
-                Flux: $(this).find('span').text().split('#')
-                    .map(tag => tag.trim())
-                    .filter(function (n) {
-                        return n != ""
-                    })
+                Price: $('#root .contentWell__b0c648c9 .quotePageSnapshot .pseudoMainContent .snapshot__0569338b .snapshotOverview__d5769afc .snapshotSummary__16511a01 .price__c3a38e1d .overviewRow__0956421f').find('span').first().text().trim(),
+                
+                amtChanged: $('#root .contentWell__b0c648c9 .quotePageSnapshot .pseudoMainContent .snapshot__0569338b .snapshotOverview__d5769afc .snapshotSummary__16511a01 .price__c3a38e1d .overviewRow__0956421f').find('span').eq(2).text().trim()
             }
 
 
