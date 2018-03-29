@@ -38,7 +38,7 @@ var msg = "";
         }
     }
 
-// Email Notifications
+// Email Notifications for stocks
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
