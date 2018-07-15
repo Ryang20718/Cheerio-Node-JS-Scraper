@@ -52,7 +52,7 @@ axios.get('https://www.zacks.com/stock/quote/PRGS?q=PRGS')
     }, (error) => console.log(err));
 
 
-
+/*
 //reading in from json
 var msg = "";
     var obj = JSON.parse(fs.readFileSync('output.json', 'utf8'));
@@ -67,6 +67,7 @@ var msg = "";
             msg = "sell sgh";
         }
     }
+    */
 /*
 // Email Notifications for stocks
 var nodemailer = require('nodemailer');
